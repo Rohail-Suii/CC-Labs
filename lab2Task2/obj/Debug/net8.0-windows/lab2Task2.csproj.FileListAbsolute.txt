@@ -1,0 +1,14 @@
+D:\Study\Semester 8\CC\Labs\lab2Task2\bin\Debug\net8.0-windows\lab2Task2.exe
+D:\Study\Semester 8\CC\Labs\lab2Task2\bin\Debug\net8.0-windows\lab2Task2.deps.json
+D:\Study\Semester 8\CC\Labs\lab2Task2\bin\Debug\net8.0-windows\lab2Task2.runtimeconfig.json
+D:\Study\Semester 8\CC\Labs\lab2Task2\bin\Debug\net8.0-windows\lab2Task2.dll
+D:\Study\Semester 8\CC\Labs\lab2Task2\bin\Debug\net8.0-windows\lab2Task2.pdb
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.AssemblyInfoInputs.cache
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.AssemblyInfo.cs
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.csproj.CoreCompileInputs.cache
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.dll
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\refint\lab2Task2.dll
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.pdb
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\lab2Task2.genruntimeconfig.cache
+D:\Study\Semester 8\CC\Labs\lab2Task2\obj\Debug\net8.0-windows\ref\lab2Task2.dll

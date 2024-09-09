@@ -1,0 +1,14 @@
+D:\Study\Semester 8\CC\Labs\labAct3\bin\Debug\net8.0\labAct3.exe
+D:\Study\Semester 8\CC\Labs\labAct3\bin\Debug\net8.0\labAct3.deps.json
+D:\Study\Semester 8\CC\Labs\labAct3\bin\Debug\net8.0\labAct3.runtimeconfig.json
+D:\Study\Semester 8\CC\Labs\labAct3\bin\Debug\net8.0\labAct3.dll
+D:\Study\Semester 8\CC\Labs\labAct3\bin\Debug\net8.0\labAct3.pdb
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.AssemblyInfoInputs.cache
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.AssemblyInfo.cs
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.csproj.CoreCompileInputs.cache
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.dll
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\refint\labAct3.dll
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.pdb
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.genruntimeconfig.cache
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\ref\labAct3.dll
