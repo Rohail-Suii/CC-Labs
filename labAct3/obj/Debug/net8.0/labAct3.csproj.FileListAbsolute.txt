@@ -12,3 +12,4 @@ D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\refint\labAct3.dll
 D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.pdb
 D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.genruntimeconfig.cache
 D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\ref\labAct3.dll
+D:\Study\Semester 8\CC\Labs\labAct3\obj\Debug\net8.0\labAct3.sourcelink.json

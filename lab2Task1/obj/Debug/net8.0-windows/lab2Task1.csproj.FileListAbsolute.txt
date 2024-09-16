@@ -12,3 +12,4 @@ D:\Study\Semester 8\CC\Labs\lab2Task1\obj\Debug\net8.0-windows\refint\lab2Task1.
 D:\Study\Semester 8\CC\Labs\lab2Task1\obj\Debug\net8.0-windows\lab2Task1.pdb
 D:\Study\Semester 8\CC\Labs\lab2Task1\obj\Debug\net8.0-windows\lab2Task1.genruntimeconfig.cache
 D:\Study\Semester 8\CC\Labs\lab2Task1\obj\Debug\net8.0-windows\ref\lab2Task1.dll
+D:\Study\Semester 8\CC\Labs\lab2Task1\obj\Debug\net8.0-windows\lab2Task1.sourcelink.json
