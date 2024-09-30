@@ -67,71 +67,57 @@ namespace Lab5Act1
                 }
                 else if (keywordList.Contains(lexeme))
                 {
-                    // Process variable declaration (e.g., int a = 10)
+                    // Process variable declaration (e.g., int a)
                     if (i + 1 < lexemes.Length && IsVariable(lexemes[i + 1]))
                     {
                         string variableName = lexemes[i + 1];
                         string variableType = lexeme;
-                        string variableValue = i + 3 < lexemes.Length ? lexemes[i + 3] : "unassigned";
-                        ProcessVariable(variableName, variableType, variableValue, ref row, ref count, lineNum);
-                        i += 3; // Skip over the variable name, '=', and value in lexemes
+                        ProcessVariable(variableName, variableType, ref row, ref count, lineNum);
+                        i++; // Skip over the variable name
                     }
                     tfTokens.AppendText($"<keyword, {lexeme}> ");
                 }
                 else if (IsVariable(lexeme))
                 {
-                    // Process variable assignment (e.g., a = b + 5)
+                    // Process variable assignment (we no longer store values, so skip value processing)
                     if (i + 1 < lexemes.Length && lexemes[i + 1] == "=")
                     {
                         string variableName = lexeme;
-                        string variableValue = string.Join(" ", lexemes.Skip(i + 2));
-                        UpdateVariableValue(variableName, variableValue, lineNum);
-                        tfTokens.AppendText($"<var, {variableName} = {variableValue}> ");
-                        break; // Process the rest of the line as a single assignment
+                        tfTokens.AppendText($"<var, {variableName} assigned> ");
+                        break; // Stop processing the rest of the assignment
                     }
                     else
                     {
-                        ProcessVariable(lexeme, "unknown", "unassigned", ref row, ref count, lineNum);
+                        ProcessVariable(lexeme, "unknown", ref row, ref count, lineNum);
                     }
                 }
             }
         }
 
-        private void ProcessVariable(string variableName, string variableType, string variableValue, ref int row, ref int count, int lineNum)
+        private void ProcessVariable(string variableName, string variableType, ref int row, ref int count, int lineNum)
         {
             var existingEntry = symbolTable.Find(entry => entry[1] == variableName);
             if (existingEntry != null)
             {
-                existingEntry[3] = variableValue;
                 tfTokens.AppendText($"<var{existingEntry[0]}, {existingEntry[0]}> ");
             }
             else
             {
-                symbolTable.Add(new List<string> { count.ToString(), variableName, variableType, variableValue, lineNum.ToString() });
+                // Add to the symbol table without the value
+                symbolTable.Add(new List<string> { count.ToString(), variableName, variableType, lineNum.ToString() });
                 tfTokens.AppendText($"<var{count}, {row}> ");
                 row++;
                 count++;
             }
         }
 
-        private void UpdateVariableValue(string variableName, string variableValue, int lineNum)
-        {
-            var existingEntry = symbolTable.Find(entry => entry[1] == variableName);
-            if (existingEntry != null)
-            {
-                existingEntry[3] = variableValue;
-            }
-            else
-            {
-                tfTokens.AppendText($"<error, {variableName} not declared> ");
-            }
-        }
-
         private void DisplaySymbolTable()
         {
+            // Display symbol table without variable values
             foreach (var entry in symbolTable)
             {
-                symbolTableTextBox.AppendText(string.Join("\t", entry) + "\n");
+                // Only display variable count, name, type, and line number
+                symbolTableTextBox.AppendText($"{entry[0]}\t{entry[1]}\t{entry[2]}\t{entry[3]}\n");
             }
         }
 
