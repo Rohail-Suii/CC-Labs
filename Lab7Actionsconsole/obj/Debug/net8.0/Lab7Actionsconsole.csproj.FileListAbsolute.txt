@@ -1,0 +1,15 @@
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\bin\Debug\net8.0\Lab7Actionsconsole.exe
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\bin\Debug\net8.0\Lab7Actionsconsole.deps.json
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\bin\Debug\net8.0\Lab7Actionsconsole.runtimeconfig.json
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\bin\Debug\net8.0\Lab7Actionsconsole.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\bin\Debug\net8.0\Lab7Actionsconsole.pdb
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.AssemblyInfoInputs.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.AssemblyInfo.cs
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.csproj.CoreCompileInputs.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.sourcelink.json
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\refint\Lab7Actionsconsole.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.pdb
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\Lab7Actionsconsole.genruntimeconfig.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actionsconsole\obj\Debug\net8.0\ref\Lab7Actionsconsole.dll

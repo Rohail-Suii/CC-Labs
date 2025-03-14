@@ -1,0 +1,15 @@
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.AssemblyInfoInputs.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.AssemblyInfo.cs
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.csproj.CoreCompileInputs.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.sourcelink.json
+D:\Study\Semester 8\CC\Labs\Lab7Actions\bin\Debug\net8.0-windows\Lab7Actions.exe
+D:\Study\Semester 8\CC\Labs\Lab7Actions\bin\Debug\net8.0-windows\Lab7Actions.deps.json
+D:\Study\Semester 8\CC\Labs\Lab7Actions\bin\Debug\net8.0-windows\Lab7Actions.runtimeconfig.json
+D:\Study\Semester 8\CC\Labs\Lab7Actions\bin\Debug\net8.0-windows\Lab7Actions.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actions\bin\Debug\net8.0-windows\Lab7Actions.pdb
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\refint\Lab7Actions.dll
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.pdb
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\Lab7Actions.genruntimeconfig.cache
+D:\Study\Semester 8\CC\Labs\Lab7Actions\obj\Debug\net8.0-windows\ref\Lab7Actions.dll

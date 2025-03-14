@@ -392,8 +392,71 @@ namespace Lab7Act1
                 richTextBox3.AppendText("\n"); // Add a new line after each non-terminal's entries
             }
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string input = richTextBox4.Text.Trim(); // User input to be parsed
+            string startSymbol = productionRulez.Keys.Cast<string>().First(); // Start symbol for parsing
+            bool isValid = ParseInput(input, startSymbol);
 
+            if (isValid)
+            {
+                MessageBox.Show("The input is valid according to the grammar.", "Parsing Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("The input does not conform to the grammar.", "Parsing Result", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private bool ParseInput(string input, string startSymbol)
+        {
+            Stack<string> stack = new Stack<string>();
+            stack.Push("$"); // End of input symbol
+            stack.Push(startSymbol); // Start with the start symbol of the grammar
+
+            Queue<string> tokens = new Queue<string>(input.Split(' ')); // Tokenize the input based on spaces
+            tokens.Enqueue("$"); // Add end of input symbol to tokens
+
+            while (stack.Count > 0)
+            {
+                string top = stack.Peek();
+                string token = tokens.Peek();
+
+                // If stack top matches the current token
+                if (top == token)
+                {
+                    stack.Pop();
+                    tokens.Dequeue();
+                }
+                // If stack top is a terminal that doesn't match the input token, return false
+                else if (!parsingTable.ContainsKey(top) && top != "$")
+                {
+                    return false;
+                }
+                // If top is a non-terminal and has an entry in the parsing table for the token
+                else if (parsingTable.ContainsKey(top) && parsingTable[top].ContainsKey(token))
+                {
+                    stack.Pop(); // Remove the non-terminal
+
+                    string production = parsingTable[top][token];
+                    if (production != "epsilon") // Push production symbols in reverse order if not epsilon
+                    {
+                        var symbols = production.Split(' ').Reverse();
+                        foreach (var symbol in symbols)
+                        {
+                            stack.Push(symbol);
+                        }
+                    }
+                }
+                // If no matching rule is found in the parsing table, return false
+                else
+                {
+                    return false;
+                }
+            }
+
+            // Input is valid if all tokens are processed
+            return tokens.Count == 0;
+        }
     }
-
-
 }

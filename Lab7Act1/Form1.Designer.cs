@@ -86,10 +86,29 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 66);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Parsing Table";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            this.button4 = new System.Windows.Forms.Button();
+            this.button4.Location = new System.Drawing.Point(700, 400); // Adjust the position as needed
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(120, 50); // Adjust the size as needed
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Actions";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Controls.Add(this.button4);
+
+            //
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4.Location = new System.Drawing.Point(500, 500); // Adjust the position as needed
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(200, 100); // Adjust the size as needed
+            this.richTextBox4.TabIndex = 6;
+            this.richTextBox4.Text = "";
+            this.Controls.Add(this.richTextBox4);
+
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -116,6 +135,17 @@
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+
+        private System.Windows.Forms.Button button4;
+
     }
 }
 
+/*
+S>A B
+A>a A
+A>epsilon
+B>b B
+B>epsilon
+*/

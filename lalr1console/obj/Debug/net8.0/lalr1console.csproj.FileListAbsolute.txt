@@ -1,0 +1,15 @@
+D:\Study\Semester 8\CC\Labs\lalr1console\bin\Debug\net8.0\lalr1console.exe
+D:\Study\Semester 8\CC\Labs\lalr1console\bin\Debug\net8.0\lalr1console.deps.json
+D:\Study\Semester 8\CC\Labs\lalr1console\bin\Debug\net8.0\lalr1console.runtimeconfig.json
+D:\Study\Semester 8\CC\Labs\lalr1console\bin\Debug\net8.0\lalr1console.dll
+D:\Study\Semester 8\CC\Labs\lalr1console\bin\Debug\net8.0\lalr1console.pdb
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.AssemblyInfoInputs.cache
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.AssemblyInfo.cs
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.csproj.CoreCompileInputs.cache
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.sourcelink.json
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.dll
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\refint\lalr1console.dll
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.pdb
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\lalr1console.genruntimeconfig.cache
+D:\Study\Semester 8\CC\Labs\lalr1console\obj\Debug\net8.0\ref\lalr1console.dll
